@@ -40,7 +40,11 @@ services:
         "spring.jpa.properties.hibernate.dialect": "org.hibernate.dialect.MySQL5InnoDBDialect",
         "spring.jpa.hibernate.ddl-auto": "update"
       }'
- 
+
+  front:
+    image: yousef1234/front:5
+    ports:
+      - "86:86"
 
 volumes:
   db :
