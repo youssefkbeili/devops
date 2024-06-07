@@ -42,7 +42,7 @@ services:
       }'
 
   front:
-    image: yousef1234/front:5
+    image: yousef1234/front:6
     ports:
       - "86:86"
 
